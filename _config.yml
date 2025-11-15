@@ -1,0 +1,44 @@
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# Site Settings
+title: "Your Name"
+subtitle: "Data Scientist"
+name: "Your Full Name"
+description: "Data Scientist Portfolio"
+url: "https://[your-username].github.io"
+baseurl: ""
+
+# Author
+author:
+  name: "Miao Li"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Data Scientist | AI/ML | Bioinfomatics"
+  location: "Your City, State"
+  email: "your.email@example.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yourusername"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/yourusername"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
